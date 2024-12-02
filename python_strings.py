@@ -23,7 +23,7 @@ current_year = "2020"
 #       - second letter of your last name (use the -index)
 #       - first two letter of your first name (use the +index)
 #       - second two letter of your last name (use the -index)
-print (my_first_name + "\n" + my_last_name + "\n" + my_year_of_birth + "\n" + my_first_name[0] + "\n" + my_last_name[-4] + "\n" + my_first_name[0:2] + "\n" + my_last_name[-4:-2]) 
+print (my_first_name + "\n" + my_last_name + "\n" + my_first_name[0] + "\n" + my_last_name[-4] + "\n" + my_first_name[0:2] + "\n" + my_last_name[-4:-2]) 
 
 
 
@@ -42,13 +42,17 @@ print(my_first_name * 6)
 #   - Print the following items (one per line) (print using variables)
 #       - first name last name -was born in- year of birth
 #       - first name last name -was born in- year of birth. first name -enjoyed celebrating- current year
-
+repeated_string = f"{my_first_name} {my_last_name} was born in {my_year_of_birth}'"
+print(repeated_string)
+print(repeated_string + f". {my_first_name} enjoyed celebrating {current_year}")
 
 
 # TODO Escape characters
 #   - Print the following items (one per line) (print using variables)
 #       - possesive first name -birth year is- year of birth 
 #       - tab last name current year
+print(f"{my_first_name}'s birth year is {my_year_of_birth}")
+print(f"\t {my_last_name} {current_year}")
 
 
 # TODO String methods
