@@ -42,7 +42,7 @@ print(my_first_name * 6)
 #   - Print the following items (one per line) (print using variables)
 #       - first name last name -was born in- year of birth
 #       - first name last name -was born in- year of birth. first name -enjoyed celebrating- current year
-repeated_string = f"{my_first_name} {my_last_name} was born in {my_year_of_birth}'"
+repeated_string = f"{my_first_name} {my_last_name} was born in {my_year_of_birth}"
 print(repeated_string)
 print(repeated_string + f". {my_first_name} enjoyed celebrating {current_year}")
 
@@ -60,3 +60,6 @@ print(f"\t {my_last_name} {current_year}")
 #       - first name and last name in lower case
 #       - length of last name
 #       - first name and last name all in upper case
+print(f"{my_first_name.lower()} {my_last_name.lower()}")
+print(len(my_last_name))
+print(f"{my_first_name.upper()} {my_last_name.upper()}")
